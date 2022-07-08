@@ -1,0 +1,53 @@
+<p>views/users/registrations/edit.html.erb プロフィールを更新する画面</p>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+
+<div class="col-lg-10 user-view">
+  <div class="user-view-box">
+
+<div class="update-content">
+                        <div class="row">
+                            <div class="col-md-6 offset-md-3">
+                                <div class="icon-box">
+                                    <img alt="アイコン画像" class="icon-image host-icon" src="/uploads/user/image/1441/%E3%82%B5%E3%82%A4%E3%82%BB%E3%82%99_%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2022-06-10_11.12.50.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+  <div class="update-content">
+    <div class="row">
+        <label class="col-md-3 required-a" for="image">アイコン画像</label>
+        <input class="mb-4 col-md-9" placeholder="アイコン画像をアップロード" type="file" name="user[image]" id="user_image">
+    </div>
+  </div>
+  
+  <div class="update-content">
+    <div class="row">
+      <label class="col-md-3 required-a" for="name">名前</label>
+      <input class="form-control mb-4 col-md-9" placeholder="名前を入力" type="text" value="makoto860@gmail.nejp" name="user[name]" id="user_name">
+    </div>
+  </div>
+  
+  
+  <div class="update-content">
+    <div class="row">
+      <label class="col-md-3 required-a" for="introduction">自己紹介</label>
+      <textarea rows="5" class="form-control mb-4 col-md-9" placeholder="自己紹介を入力" name="user[introduction]" id="user_introduction">お願いします</textarea>
+    </div>
+  </div>
+  
+  
+  <div class="actions">
+    <%= f.submit "プロフィール内容を更新する" %>
+  </div>
+  </div>
+</div>
+
+<% end %>
+
+<!--<h3>Cancel my account</h3>
+
+<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>-->
+
+<%= link_to "トップページにもどる", :pages %>
