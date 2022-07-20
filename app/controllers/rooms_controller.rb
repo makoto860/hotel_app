@@ -18,10 +18,11 @@ class RoomsController < ApplicationController
   end
  
   def show
-    @room = Room.find(params[:room_name])
+    @room = Room.find(params[:id])
+    @post = Post.new
     
   end
- 
+  
   def edit
   end
  
