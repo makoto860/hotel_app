@@ -31,3 +31,22 @@
         <li><%= link_to "ルーム登録一覧に戻る", :rooms %></li>
       </ul>
     </div>
+
+
+
+<h3>新規投稿内容</h3>
+ 
+ <%= form_with model: @post do |f| %>
+   <table>
+     <tr>
+       <th><%= f.label :content, "投稿内容" %></th>
+       <td><%= f.text_area :content, class:"posts-content" %></td>
+     </tr>
+   </table>
+   <%= f.hidden_field :user_id, value: @room.id %>
+   <div>
+     <ul>
+       <li><%= f.submit "投稿を完了する"%></li>
+     </ul>
+   </div>
+ <% end %>
