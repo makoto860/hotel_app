@@ -1,3 +1,45 @@
+------------------icloudに繋ぐ
+This is taking longer than expected. The delay may be caused by high CPU usage in your environment, your T2 or T3 instance might be running out of burstable CPU capacity credits, or there are VPC configuration issues. Please check the VPC settings or the troubleshooting documentation for help with these issues.
+
+vol.上げる、ファイル消す
+https://terakoya.sejuku.net/question/detail/4102
+
+https://qiita.com/ayaka-k/questions/8d553548bb76d6a87f8f
+
+
+
+
+
+
+
+
+
+
+------------------------------削除ができない
+https://qiita.com/Azurite324/items/438f29f9bc1deb9cead4
+
+
+
+
+
+
+
+
+
+
+------------------------------------------git cloneエラー
+bin/bundle install,bin/rails sでサーバ起動できた
+migrate,updateもできる
+
+
+
+
+
+
+
+
+
+
 ------------------------------------------コンパイルエラー
 https://zenn.dev/redheadchloe/articles/3615a4d9bcd8a4
 
