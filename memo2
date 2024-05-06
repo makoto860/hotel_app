@@ -1,3 +1,16 @@
+----------------------------------------gitpush
+アクセストークン作成
+githubでリポジトリ作成
+mkdir git_test
+cd git_test
+touch
+git init
+git add .　ファイル・フォルダ名
+git status
+git commit -m ""
+git remote add origin url
+git push origin master
+
 ------------------------------------ログアウトでrouting error
 deleteからget変更
 https://qiita.com/ken_sasaki2/items/ef0802ed0d8257753a6d
